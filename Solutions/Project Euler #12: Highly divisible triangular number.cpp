@@ -45,7 +45,7 @@ int main(void) {
 	while (t--) {
 		int n, ans = INT_MAX;
 		scanf("%d", &n);
-		for (int i = n + 1; i < 2000; ++i) {
+		for (int i = n + 1; i < 1025; ++i) {
 			if (res[i]) ans = min(ans, res[i]);
 		}
 		printf("%d\n", ans);
